@@ -12,6 +12,7 @@
 
 @property (nonatomic, weak, readonly) id target;
 @property (nonatomic, assign, readonly) SEL action;
+@property (nonatomic, strong) id userInfo;
 
 @property (nonatomic, copy, readonly) NSString *title;
 @property (nonatomic, copy, readonly) UIImage *image;
